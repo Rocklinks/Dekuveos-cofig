@@ -1,0 +1,4 @@
+sudo pacman -S preload wps-office ttf-wps-fonts xfce4-whiskermenu-plugin xfce4-xkb-plugin xfce4-docklike-plugin xfce4-pulseaudio-plugin xfce4-weather-plugin rofi localsend visual-studio-code-bin floorp-bin brave-bin vlc xfce4-screenshooter snapshot gnome-disk-utility gparted simplescreenrecorder linux-cachyos-nvidia wine wine-mono wine-gecko yay github-cli geoclue gnome-maps whatsapp-for-linux gnome-maps appmenu-gtk-module vala-panel-appmenu-registrar vala-panel-appmenu-xfce xfce4-clipman-plugin
+
+##Change the shell
+chsh -s /bin/bash

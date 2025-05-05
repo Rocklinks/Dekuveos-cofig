@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Apps
+Comment=
+Exec=rofi -show drun
+Icon=/opt/dekuve-p/launcher.svg
+Path=
+Terminal=false
+StartupNotify=false

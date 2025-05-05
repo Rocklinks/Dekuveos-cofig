@@ -1,0 +1,28 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-notifyd" version="1.0">
+  <property name="theme" type="string" value="Default"/>
+  <property name="initial-opacity" type="double" value="1"/>
+  <property name="do-fadeout" type="empty"/>
+  <property name="do-slideout" type="bool" value="true"/>
+  <property name="notification-log" type="bool" value="true"/>
+  <property name="do-not-disturb" type="bool" value="false"/>
+  <property name="log-max-size-enabled" type="bool" value="true"/>
+  <property name="date-time-format" type="int" value="0"/>
+  <property name="date-time-custom-format" type="string" value="%a %H:%M:%S"/>
+  <property name="show-notifications-on" type="string" value="active-monitor"/>
+  <property name="log-level" type="string" value="always"/>
+  <property name="log-level-apps" type="string" value="all"/>
+  <property name="notify-location" type="string" value="top-right"/>
+  <property name="applications" type="empty">
+    <property name="known_applications" type="array">
+      <value type="string" value=""/>
+      <value type="string" value="org.freedesktop.network-manager-applet"/>
+      <value type="string" value="org.kde.kdeconnect.daemon"/>
+      <value type="string" value="org.xfce.Thunar"/>
+      <value type="string" value="Xfce volume control"/>
+      <value type="string" value="xfce4-power-manager"/>
+      <value type="string" value="xfce4-settings-helper"/>
+    </property>
+  </property>
+</channel>

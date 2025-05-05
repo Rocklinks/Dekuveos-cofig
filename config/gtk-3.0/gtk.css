@@ -1,0 +1,146 @@
+/***************
+ * Xfce4 and Panel *
+ ***************/
+ 
+.xfce4-panel.background widget.tasklist > button.toggle, .xfce4-panel.background button, .xfce4-panel.background button.flat {
+font-weight: 600;
+color: #ffffff;
+margin: 0 5px;
+background-color: transparent;
+border-radius: 5px;
+box-shadow: none;
+min-width: 30px;
+}
+
+.xfce4-panel.background widget.tasklist > button.toggle:hover, .xfce4-panel.background button:hover {
+color: white;
+background-color: rgba(255,255,255,0.3);
+}
+
+.xfce4-panel.background widget.tasklist > button.toggle:checked, .xfce4-panel.background button:checked {
+color: white;
+background-color: rgba(255,255,255,0.3);
+}
+
+.xfce4-panel.background widget.tasklist > button.toggle:checked label, .xfce4-panel.background button:checked label {
+color: inherit;
+}
+
+.xfce4-panel.background widget.tasklist > button.toggle:active, .xfce4-panel.background button:active {
+color: white;
+background-color: rgba(255,255,255,0.3);
+}
+
+.xfce4-panel.background {
+  border: none;
+  background-color: rgba(0,0,0,0.5);
+  color: #ffffff;
+  font-weight: 600;
+  text-shadow: none;
+  -gtk-icon-shadow: none;
+  box-shadow: none;
+}
+
+.xfce4-panel.background button {
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 5px;
+  background-color: transparent;
+  border-radius: 5px;
+  min-width: 30px;
+}
+
+.xfce4-panel.background button:hover {
+  background-color: rgba(255,255,255,0.3);
+  color: #ffffff;
+}
+
+.xfce4-panel.background button:checked {
+  background-color: rgba(255,255,255,0.3);
+  color: #ffffff;
+}
+
+.xfce4-panel.background .tasklist button image {
+  padding: 4px;
+}
+
+.xfce4-panel.background,
+.xfce4-panel.background frame > border {
+  border-width: 0;
+}
+
+.xfce4-panel.background#XfcePanelWindow {
+  border: none;
+}
+
+.xfce4-panel.background#XfcePanelWindow, .xfce4-panel.background#XfcePanelWindow.marching-ants {
+  transition: none;
+}
+
+.xfce4-panel.background button, .xfce4-panel.background button.flat {
+  font-weight: 700;
+}
+
+.xfce4-panel.background button#launcher-arrow:hover, .xfce4-panel.background button#launcher-arrow + button.toggle:hover, .xfce4-panel.background button.flat#launcher-arrow:hover, .xfce4-panel.background button.flat#launcher-arrow + button.toggle:hover {
+  box-shadow: none;
+}
+
+.xfce4-panel.background button#launcher-arrow + button.toggle:checked, .xfce4-panel.background button.flat#launcher-arrow + button.toggle:checked {
+  color: #9A5C5E;
+  box-shadow: none;
+}
+
+.xfce4-panel.background button#xfce4-notification-plugin, .xfce4-panel.background button.flat#xfce4-notification-plugin {
+  padding: 0 1px;
+}
+
+.xfce4-panel.background menu {
+  font-weight: 400;
+  text-shadow: none;
+}
+
+.xfce4-panel.background menubar.-vala-panel-appmenu-private > menuitem {
+  font-weight: 600;
+  color: #ffffff;
+  background-color: transparent;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+.xfce4-panel.background menubar.-vala-panel-appmenu-private > menuitem:hover {
+  background-color: rgba(255,255,255,0.3);
+  color: #ffffff;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8), 0 2px 3px rgba(0, 0, 0, 0.8), 0 3px 4px rgba(0, 0, 0, 0.8);
+}
+
+.xfce4-panel.background widget.tasklist > button.toggle {
+  font-weight: 400;
+}
+
+/***************
+ * Docklike *
+ ***************/
+#docklike-plugin {
+	background-color: rgba(255,255,255,0.15);
+        border-radius: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+#docklike-plugin .group {
+	margin: 0px;
+	padding: 5px;
+	background-color: transparent;
+}
+
+#docklike-plugin .open_group { background-color: rgba(255,255,255,0.25); border-radius: 12px;}
+#docklike-plugin .active_group { background-color: rgba(255,255,255,0.3); border-radius: 12px;}
+#docklike-plugin .hover_group { background-color: rgba(255,255,255,0.3); border-radius: 12px;}
+
+#pulseaudio-button menu .linked button {
+    background-color: #999999;
+    border-radius: 9999px;
+    min-height: 28px;
+    min-width: 28px;
+    color: #ffffff;
+}
+

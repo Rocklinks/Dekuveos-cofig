@@ -1,0 +1,198 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="28"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="1"/>
+        <value type="int" value="13"/>
+        <value type="int" value="3"/>
+        <value type="int" value="2"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="12"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="14"/>
+        <value type="int" value="4"/>
+        <value type="int" value="9"/>
+      </property>
+      <property name="enable-struts" type="bool" value="true"/>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=8;x=128;y=1575"/>
+      <property name="size" type="uint" value="56"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+        <value type="int" value="24"/>
+        <value type="int" value="18"/>
+        <value type="int" value="17"/>
+        <value type="int" value="19"/>
+        <value type="int" value="22"/>
+        <value type="int" value="20"/>
+        <value type="int" value="21"/>
+      </property>
+      <property name="mode" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="known-players" type="string" value="org.kde.kdeconnect.app"/>
+    </property>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-date-font" type="string" value="Roboto Bold 11"/>
+      <property name="digital-time-font" type="string" value="Sans 12"/>
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-date-format" type="string" value="%d/%m/%Y"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-16" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-17" type="string" value="docklike"/>
+    <property name="plugin-18" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-19" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-20" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-21" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-22" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16937465821.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-24" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Kovilpatti, Thoothukudi"/>
+        <property name="latitude" type="string" value="9.175590"/>
+        <property name="longitude" type="string" value="77.868700"/>
+      </property>
+      <property name="msl" type="int" value="97"/>
+      <property name="timezone" type="string" value="Asia/Kolkata"/>
+      <property name="offset" type="string" value="+05:30"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/dekuve"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+      </property>
+    </property>
+    <property name="plugin-1" type="string" value="appmenu">
+      <property name="plugins" type="empty">
+        <property name="plugin-1" type="empty">
+          <property name="compact-mode" type="bool" value="false"/>
+          <property name="bold-application-name" type="bool" value="false"/>
+          <property name="expand" type="bool" value="true"/>
+        </property>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="indicator">
+      <property name="known-indicators" type="array">
+        <value type="string" value="libayatana-application.so"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="xdm-app"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “hgw-dee04a” active: hgw-dee04a (84%)"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="com.github.xeco23.WasIstLos.Tray"/>
+        <value type="string" value="SimpleScreenRecorder"/>
+        <value type="string" value="WXpI9VagMJ"/>
+        <value type="string" value="stacer"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="DWSyeMoCYZ"/>
+        <value type="string" value="systray"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="string" value="power-manager-plugin"/>
+    <property name="plugin-6" type="string" value="xkb">
+      <property name="display-type" type="uint" value="2"/>
+      <property name="display-name" type="uint" value="1"/>
+    </property>
+    <property name="plugin-4" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugin-3" type="string" value="xfce4-clipman-plugin"/>
+</channel>

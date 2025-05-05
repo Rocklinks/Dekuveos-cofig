@@ -1,0 +1,10 @@
+[user]
+indicatorStyle=1
+inactiveIndicatorStyle=1
+indicatorColorFromTheme=false
+pinned=brave-browser;floorp;thunar;xfce4-terminal;stacer;localsend;code;org.kde.kdeconnect.app;org.gnome.Snapshot;wps-office-wps;simplescreenrecorder;xfce4-screenshooter;com.github.xeco23.WasIstLos;xdman-beta;
+indicatorColor=rgb(255,255,255)
+inactiveColor=rgb(0,0,0)
+indicatorOrientation=1
+showPreviews=false
+showWindowCount=false

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="telegram-attention-panel.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="32.545455"
+     inkscape:cx="10.738827"
+     inkscape:cy="11"
+     inkscape:window-width="2560"
+     inkscape:window-height="1468"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6" />
+  <g
+     transform="translate(3 3)"
+     id="g6">
+    <path
+       d="M15.375 1.258a.874.874 0 00-.467.089L.747 6.839c-.97.39-.96.935-.174 1.172l3.633 1.144 8.414-5.34c.4-.245.758-.113.464.156l-6.817 6.186-.195 1.611-.987-3.166-.875.556c.428 1.36.846 2.72 1.282 4.08.134.364.485.464.793.47.464.015 1.243-.633 1.243-.633l1.25-1.056 3.42 2.543c.677.375 1.166.18 1.336-.634l2.411-11.43c.184-.744-.12-1.187-.556-1.237m-8.187 9.586l.758.56-.92.779.158-1.339"
+       fill="#ffffff"
+       id="path2"
+       style="fill:#d5e5ff" />
+    <circle
+       cx="2"
+       cy="14"
+       r="2"
+       fill="#4285f4"
+       id="circle4" />
+  </g>
+</svg>

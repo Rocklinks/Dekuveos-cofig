@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="22"
+   height="22"
+   viewBox="0 0 22 22"
+   fill="none"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="telegram-mute-panel.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="32.545455"
+     inkscape:cx="10.738827"
+     inkscape:cy="11"
+     inkscape:window-width="2560"
+     inkscape:window-height="1468"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13" />
+  <g
+     clip-path="url(#clip0_10:5)"
+     id="g6"
+     transform="matrix(0.7272814,0,0,0.7272814,3,2.3727448)">
+    <path
+       d="M 21.1406,1.72987 C 20.941,1.71039 20.717,1.74448 20.4979,1.8516 L 1.02655,9.40351 C -0.307574,9.9391 -0.292958,10.6889 0.787971,11.0151 L 5.78362,12.5879 17.3525,5.24537 C 17.9027,4.9094 18.3944,5.08956 17.9903,5.45961 L 8.61748,13.9658 8.34969,16.1812 6.99123,11.8282 5.78857,12.5926 c 0.58915,1.8698 1.1637,3.7395 1.76261,5.6092 0.18502,0.5015 0.66706,0.6378 1.09067,0.6476 0.63785,0.0195 1.70895,-0.8716 1.70895,-0.8716 l 1.7188,-1.451 4.7034,3.4959 c 0.93,0.5162 1.6019,0.2484 1.8357,-0.8715 L 21.9245,3.43355 C 22.1777,2.41106 21.7589,1.80238 21.1601,1.73432 Z M 9.90279,14.9148 l 1.04201,0.7693 -1.26598,1.0712 0.2191,-1.8404"
+       fill="#ffffff"
+       id="path2" />
+    <path
+       d="M 2.75,22 C 4.26878,22 5.5,20.7688 5.5,19.25 5.5,17.7312 4.26878,16.5 2.75,16.5 1.23122,16.5 0,17.7312 0,19.25 0,20.7688 1.23122,22 2.75,22 Z"
+       fill="#ffffff"
+       id="path4" />
+  </g>
+  <defs
+     id="defs11">
+    <clipPath
+       id="clip0_10:5">
+      <rect
+         width="22"
+         height="22"
+         fill="white"
+         id="rect8" />
+    </clipPath>
+  </defs>
+</svg>
